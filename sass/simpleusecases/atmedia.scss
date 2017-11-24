@@ -1,0 +1,9 @@
+@import "size_classes";
+
+.information {
+  color: #336699;
+  line-height: 1em;
+  @media (min-width: $medium-screen) {
+    line-height: 1.5em; }
+  @media (min-width: $large-screen) {
+    line-height: 2em; } }

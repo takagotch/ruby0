@@ -1,0 +1,12 @@
+@mixin sale-styles {
+  body[data-selector="summer-sale"] & {
+    @content;
+  }
+}
+
+.sign-in {
+  display: block;
+  @include sale-styles {
+    float: left;
+  }
+}

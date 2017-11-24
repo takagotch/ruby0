@@ -1,0 +1,10 @@
+/* Here's a comment that we're making
+ * multiline and it's fine to show up
+ * in our CSS output. */
+button {
+  color: #999;
+}
+
+button.sidebar {
+  color: #DDD;
+}

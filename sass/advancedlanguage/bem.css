@@ -1,0 +1,9 @@
+.notification {
+/* This is a block element */
+}
+.notification__icon {
+/* This is a child element of the block */
+}
+.notification--alert {
+/* This is a different state of the block */
+}

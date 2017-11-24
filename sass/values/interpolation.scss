@@ -1,0 +1,13 @@
+@mixin button($type, $color, $icon) {
+  // Create a class with the button type
+  .button-#{$type} {
+    color: $color;
+    width: 100px;
+    .icon {
+      background: url("images/#{$icon}.png");
+    }
+  }
+}
+
+@include button("alert",    "red",   "exclamation");
+@include button("register", "green", "arrow");

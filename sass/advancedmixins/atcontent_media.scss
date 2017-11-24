@@ -1,0 +1,9 @@
+@mixin larger-than($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+
+.modal {
+  @include larger-than(900px) {
+    width: 500px; } }

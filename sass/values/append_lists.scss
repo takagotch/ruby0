@@ -1,0 +1,7 @@
+$primary-colors: "red", "yellow";
+
+@each $color in append($primary-colors, "blue") {
+  .stripe-#{$color} {
+    background: $color;
+  }
+}

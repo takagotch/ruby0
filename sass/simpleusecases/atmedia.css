@@ -1,0 +1,14 @@
+.information {
+  color: #336699;
+  line-height: 1em;
+}
+@media (min-width: 800px) {
+  .information {
+    line-height: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .information {
+    line-height: 2em;
+  }
+}

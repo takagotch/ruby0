@@ -1,0 +1,17 @@
+@mixin border($argument1, $argument2) {
+  @if type-of($argument1) == "color" {
+    border-color: $argument1;
+    border-width: $argument2;
+  } @else {
+    border-color: $argument2;
+    border-width: $argument1;
+  }
+}
+
+.alert {
+  @include border(#369, 1px)
+}
+
+.button {
+  @include border(4px, #F84)
+}

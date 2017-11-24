@@ -1,0 +1,19 @@
+.button .interior .small-icon {
+ width: 10px;
+}
+
+.side {
+ .top, .middle, .bottom {
+   .sign-in, .register {
+     @extend .small-icon;
+   }
+ }
+}
+
+.footer {
+ .links, .social {
+   .facebook, .twitter {
+     @extend .small-icon;
+   }
+ }
+}

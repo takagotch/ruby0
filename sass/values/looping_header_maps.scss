@@ -1,0 +1,7 @@
+$typography: (h1: 30px, h2: 22px, h3: 18px);
+
+@each $tag, $size in $typography {
+  #{$tag} {
+    font-size: $size;
+  }
+}

@@ -1,0 +1,15 @@
+/* Here's a comment that we're making
+ * multiline and it's fine to show up
+ * in our CSS output. */
+
+ button {
+   color: #999;
+ }
+
+ // These are single line comments
+ // and we do not want them to appear
+ // in our CSS output.
+
+ button.sidebar {
+   color: #DDD;
+ }

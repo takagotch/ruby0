@@ -1,0 +1,7 @@
+@import "create_mixin";
+.warning {
+  @include notice-box(red, 100%);
+}
+.welcome {
+  @include notice-box($width: 300px, $background: green);
+}

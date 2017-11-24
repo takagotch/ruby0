@@ -1,0 +1,7 @@
+.separator {
+  background: #FFF889;
+}
+
+.rainbow-selector {
+  background: linear-gradient(#B23C56, #FFF889, #45A8CC);
+}

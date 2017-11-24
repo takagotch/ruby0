@@ -1,0 +1,11 @@
+$notifications: (confirm: green,
+                 error:   red,
+                 info: blue);
+                 
+$button-colors: map-remove($notifications, info);
+
+@each $name, $color in $button-colors {
+  .#{$name}-button {
+    background: $color;
+  }
+}

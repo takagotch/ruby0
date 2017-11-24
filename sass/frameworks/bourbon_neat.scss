@@ -1,0 +1,10 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+.profile {
+  @include outer-container;
+  .information {
+    @include span-columns(8);
+  }
+  .photos {
+    @include span-columns(4); } }

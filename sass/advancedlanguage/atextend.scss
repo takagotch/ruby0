@@ -1,0 +1,15 @@
+.button {
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+
+.button-register {
+  @extend .button;
+  background: green;
+}
+
+.button-cancel {
+  @extend .button;
+  background: red;
+}

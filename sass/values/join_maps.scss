@@ -1,0 +1,12 @@
+$social-standard: (twitter:  #55ACEE,
+                   facebook: #3B5998);
+$social-extra: (gplus:    #DD4B39,
+                linkedin: #0077B5);
+
+$all-social: map-merge($social-standard, $social-extra);
+
+@each $social, $color in $all-social {
+  .#{$social}-icon {
+    background: $color;
+  }
+}

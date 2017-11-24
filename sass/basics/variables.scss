@@ -1,0 +1,12 @@
+$header-background: #EEE;
+$link-color: #369;
+$menu-width: 300px;
+
+header {
+  // Set the background to be #EEE
+  background: $header-background;
+  .menu {
+    width: $menu-width;
+    background: white;
+    a {
+      color: $link-color; } } }

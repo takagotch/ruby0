@@ -1,0 +1,10 @@
+header {
+  background: #EEE;
+}
+header .menu {
+  width: 300px;
+  background: white;
+}
+header .menu a {
+  color: #369;
+}

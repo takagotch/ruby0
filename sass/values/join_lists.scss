@@ -1,0 +1,8 @@
+$primary-colors: "red", "yellow";
+$secondary-colors: "orange", "green";
+
+$all-colors: join($primary-colors, $secondary-colors);
+
+.rainbow {
+  background: linear-gradient($all-colors);
+}

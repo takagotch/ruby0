@@ -1,0 +1,9 @@
+@import "maps.scss";
+
+.separator {
+  background: map-get($colors, daffodil);
+}
+
+.rainbow-selector {
+  background: linear-gradient(map-values($colors));
+}

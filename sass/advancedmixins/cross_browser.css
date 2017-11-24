@@ -1,0 +1,4 @@
+header input {
+  -webkit-appearance: searchfield;
+  -moz-appearance: searchfield;
+  appearance: searchfield; }

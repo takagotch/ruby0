@@ -1,0 +1,5 @@
+.warm-rainbow {
+  background: linear-gradient(red, orange, yellow); }
+
+.full-rainbow {
+  background: linear-gradient(red, orange, yellow, green, blue, purple); }

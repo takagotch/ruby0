@@ -1,0 +1,7 @@
+@mixin add_alert_modifier {
+  &--alert {
+    background: red; } }
+
+.notification {
+  @include add_alert_modifier;
+}

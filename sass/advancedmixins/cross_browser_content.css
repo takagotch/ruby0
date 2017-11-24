@@ -1,0 +1,9 @@
+input::-webkit-input-placeholder {
+  font-style: italic;
+}
+input::-moz-placeholder {
+  font-style: italic;
+}
+input:-ms-input-placeholder {
+  font-style: italic;
+}

@@ -1,0 +1,6 @@
+@import "bourbon/bourbon";
+
+.hero-text {
+  @include transform(rotate(90deg));
+  font-size: em(20);
+}

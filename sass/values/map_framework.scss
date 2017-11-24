@@ -1,0 +1,6 @@
+$framework-colors: ( red: #B23C56,
+                     blue: #44AACC);
+
+@mixin framework-button {
+  background: map-get($framework-colors, red)
+}

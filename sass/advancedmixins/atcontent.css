@@ -1,0 +1,6 @@
+.sign-in {
+  display: block;
+}
+body[data-selector="summer-sale"] .sign-in {
+  float: left;
+}

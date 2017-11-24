@@ -1,0 +1,13 @@
+.button-register, .button-cancel {
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+
+.button-register {
+  background: green;
+}
+
+.button-cancel {
+  background: red;
+}

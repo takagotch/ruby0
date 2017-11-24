@@ -1,0 +1,11 @@
+@import "map_framework";
+
+$red: #CC001A;
+
+.normal-button {
+  background: $red;
+}
+
+.framework-button {
+  @include framework-button;
+}

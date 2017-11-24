@@ -1,0 +1,7 @@
+$hero-widths: (small: 300px, medium: 600px, large: 900px);
+
+@each $size, $width in $hero-widths {
+  .hero-#{$size} {
+    width: $width;
+  }
+}

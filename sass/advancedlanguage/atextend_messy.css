@@ -1,0 +1,16 @@
+.button .interior .small-icon, .button .interior .side .top
+.sign-in, .side .top .button .interior .sign-in, .button
+.interior .side .top .register, .side .top .button .interior
+.register, .button .interior .side .middle .sign-in, .side
+.middle .button .interior .sign-in, .button .interior .side
+.middle .register, .side .middle .button .interior .register,
+.button .interior .side .bottom .sign-in, .side .bottom
+.button .interior .sign-in, .button .interior .side .bottom
+.register, .side .bottom .button .interior .register, .button
+.interior .footer .links .facebook, .footer .links .button
+.interior .facebook, .button .interior .footer .links
+.twitter, .footer .links .button .interior .twitter, .button
+.interior .footer .social .facebook, .footer .social .button
+.interior .facebook, .button .interior .footer .social
+.twitter, .footer .social .button .interior .twitter {
+  width: 10px; }

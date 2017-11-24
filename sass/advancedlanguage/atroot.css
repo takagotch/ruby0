@@ -1,0 +1,8 @@
+header .menu {
+  float: right;
+}
+.icon {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}

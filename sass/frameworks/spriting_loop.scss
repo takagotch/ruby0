@@ -1,0 +1,7 @@
+@each $icon in sprite-list($button-icons) {
+  .#{sprite-identifier($button-icons, $icon)}-icon {
+    @include sprite-background($button-icons);
+    @include sprite-position($button-icons, $icon);
+    @include sprite-dimensions($button-icons, $icon);
+  }
+}

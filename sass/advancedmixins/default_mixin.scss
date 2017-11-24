@@ -1,0 +1,10 @@
+@mixin dropdown($background: #333, $width: 200px, $opacity: null) {
+  background: $background;
+  opacity: $opacity;
+  padding: 10px 20px;
+  width: $width;
+}
+
+.header-menu {
+  @include dropdown($width: 300px);
+}

@@ -1,0 +1,9 @@
+@mixin border-radius($list) {
+  border-radius: $list;
+  -webkit-border-radius: nth($list, 1) nth($list, 2) 
+                         nth($list, 1) nth($list, 2);
+}
+
+.selector {
+  @include border-radius(20px 5px)
+}

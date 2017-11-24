@@ -1,0 +1,14 @@
+@import "spriting";
+@import "assets";
+
+
+$button-icons: sprite-map("button-icons",
+                   sprite-layout(horizontal, (spacing: 5px, 
+                                              alignment: bottom)),
+                   "images/icons/*");)
+
+.alert-icon {
+  @include sprite-background($button-icons);
+  @include sprite-position($button-icons, "images/icons/alert.png");
+  @include sprite-dimensions($button-icons, "images/icons/alert.png");
+}

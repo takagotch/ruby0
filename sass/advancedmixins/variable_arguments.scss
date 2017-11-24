@@ -1,0 +1,11 @@
+@mixin rainbow($colors...) {
+  background: linear-gradient($colors)
+}
+
+.warm-rainbow {
+  @include rainbow(red, orange, yellow);
+}
+
+.full-rainbow {
+  @include rainbow(red, orange, yellow, green, blue, purple);
+}
